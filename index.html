@@ -1,9 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-        <title>???</title>
-</head>
-<body bgcolor="#10100E" text="#cccccc">
-        <h1>TEAST</h1>
-</body>
+    <head>
+            <title>Stage 1</title>
+            <style>
+    .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    .button1 {width: 250px;}
+            </style>
+    </head>
+    <body bgcolor="#10100E" text="#cccccc">
+
+        <h1>Hello.</h1>
+        <h2>So now, I will test your reading skill.</h2>
+        <h3>You have 60 second to answer 10 quetion.</h3>
+        <h3>If you failed to collect answer all quetion in 60 second, You will die.</h3>
+
+        <h1>Click this button, your time will start.<h1>
+        
+        <button class="button button1" onclick=STARTTIMER()>Start</button>
+
+        <script>
+            function STARTTIMER() {
+                window.location.href = 'https://godpotato.github.io/tpoqwe/index.html';
+            }
+
+        </script>
+
+        <script>
+             window.onload = function() {
+                var ele = document.documentElement;
+                ele.requestFullscreen();			
+             };
+        </script>
+    </body>
+
 </html>
